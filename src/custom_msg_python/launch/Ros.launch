@@ -1,6 +1,0 @@
-<launch>
-	<node name="msg_publisher" pkg="custom_msg_python" type="pub.py"  output="screen"/>
-	<node name="msg_subscriber" pkg="custom_msg_python" type="intermediatenode.py" output="screen"/>
-	<node name="f_subscriber" pkg="custom_msg_python" type="subs.py" output="screen"/>
-
-</launch> 
